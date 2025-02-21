@@ -1,0 +1,66 @@
+# Visual Studio and VS Code
+.vscode/
+.vs/
+*.code-workspace
+
+# Build and Release Directories
+bin/
+obj/
+out/
+publish/
+
+# User-Specific Files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pdb
+*.cache
+
+# Logs and Debugging
+*.log
+*.tlog
+*.lastcodeanalysissucceeded
+
+# Dependencies
+packages/
+project.lock.json
+project.assets.json
+nuget.lock
+
+# Generated Files
+Generated/
+GeneratedCode/
+*.g.i.cs
+*.g.i.*
+*.g.*
+*.tmp
+
+# Entity Framework Migrations
+Migrations/
+
+# Rider
+.idea/
+*.sln.iml
+
+# DotNet Core
+.env
+.env.*
+*.pid
+secrets.json
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+*.DotSettings
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*.swp
