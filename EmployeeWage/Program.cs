@@ -10,7 +10,10 @@
             int relianceWages = garvit.CalculateWage();
             int dmartWages = deep.CalculateWage();
             int totalCompayWages = relianceWages + dmartWages;
-            Console.WriteLine($"\n===========Total Wages For All Companies: Rs{totalCompayWages}/-========================");
+            Console.WriteLine("\n========== WAGE SUMMARY ==========");
+            Console.WriteLine($"Total wage for Reliance: Rs{relianceWages}/-");
+            Console.WriteLine($"Total wage for DMart: Rs{dmartWages}/-");
+            Console.WriteLine($"Total wage for all companies: Rs{totalCompayWages}/-\n");
         }
     }
 }
